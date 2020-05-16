@@ -1,0 +1,40 @@
+loading app ryu.app.network_awareness3.shortest_forwarding
+loading app ryu.controller.ofp_handler
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app None of NetworkAwareness
+creating context network_awareness
+instantiating app None of NetworkMonitor
+/bin/sh: 1: t: not found
+/bin/sh: 1: c: not found
+/bin/sh: 0: -c requires an argument
+/bin/sh: 1: s: not found
+/bin/sh: 1: q: not found
+/bin/sh: 1: d: not found
+creating context network_monitor
+instantiating app None of NetworkDelayDetector
+in delay class
+creating context network_delay_detector
+instantiating app ryu.app.network_awareness3.shortest_forwarding of ShortestForwarding
+instantiating app ryu.controller.ofp_handler of OFPHandler
+instantiating app ryu.topology.switches of Switches
+/bin/sh: 1: t: not found
+In delay detector
+
+src   dst      delay
+---------------------------
+/bin/sh: 1: c: not found
+/bin/sh: 0: -c requires an argument
+/bin/sh: 1: s: not found
+/bin/sh: 1: q: not found
+/bin/sh: 1: d: not found
+In delay detector
+
+src   dst      delay
+---------------------------
+/bin/sh: 1: t: not found
+/bin/sh: 1: c: not found
+/bin/sh: 0: -c requires an argument
+/bin/sh: 1: s: not found
+/bin/sh: 1: q: not found
+/bin/sh: 1: d: not found

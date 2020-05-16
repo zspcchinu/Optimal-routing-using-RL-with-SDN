@@ -1,0 +1,9 @@
+eventlet!=0.18.3,!=0.20.1,!=0.21.0,!=0.23.0,>=0.18.2
+msgpack>=0.3.0
+netaddr
+oslo.config>=2.5.0
+ovs>=2.6.0
+routes
+six>=1.4.0
+tinyrpc==0.9.4
+webob>=1.2

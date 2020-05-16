@@ -1,0 +1,960 @@
+loading app ryu.app.network_awareness3.shortest_forwarding
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app None of NetworkAwareness
+creating context network_awareness
+instantiating app None of NetworkMonitor
+creating context network_monitor
+instantiating app None of NetworkDelayDetector
+creating context network_delay_detector
+instantiating app ryu.app.network_awareness3.shortest_forwarding of ShortestForwarding
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.controller.ofp_handler of OFPHandler
+switch:10 connected
+switch:13 connected
+switch:18 connected
+switch:15 connected
+switch:8 connected
+switch:12 connected
+switch:5 connected
+switch:14 connected
+switch:4 connected
+switch:3 connected
+switch:6 connected
+switch:17 connected
+switch:7 connected
+switch:16 connected
+switch:1 connected
+switch:2 connected
+switch:19 connected
+switch:11 connected
+switch:9 connected
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 0           0           0
+13<-->14 : 0           0           0
+15<-->14 : 0           0           0
+15<-->16 : 0           0           0
+15<-->19 : 0           0           0
+14<-->13 : 0           0           0
+14<-->15 : 0           0           0
+8<-->7 : 0           0           0
+8<-->9 : 0           0           0
+7<-->8 : 0           0           0
+7<-->6 : 0           0           0
+7<-->3 : 0           0           0
+10<-->11 : 0           0           0
+10<-->9 : 0           0           0
+18<-->17 : 0           0           0
+18<-->19 : 0           0           0
+1<-->2 : 0           0           0
+1<-->19 : 0           0           0
+4<-->3 : 0           0           0
+4<-->5 : 0           0           0
+6<-->7 : 0           0           0
+6<-->5 : 0           0           0
+12<-->13 : 0           0           0
+12<-->11 : 0           0           0
+17<-->18 : 0           0           0
+17<-->16 : 0           0           0
+2<-->1 : 0           0           0
+2<-->3 : 0           0           0
+3<-->4 : 0           0           0
+3<-->7 : 0           0           0
+3<-->2 : 0           0           0
+5<-->4 : 0           0           0
+5<-->6 : 0           0           0
+5<-->11 : 0           0           0
+16<-->15 : 0           0           0
+16<-->17 : 0           0           0
+19<-->15 : 0           0           0
+19<-->18 : 0           0           0
+19<-->1 : 0           0           0
+9<-->8 : 0           0           0
+9<-->10 : 0           0           0
+11<-->10 : 0           0           0
+11<-->12 : 0           0           0
+11<-->5 : 0           0           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9639.708214398985           0.9512485674716876           0
+13<-->14 : 9601.649222962258           1.1097460328638693           0
+15<-->14 : 9639.736779513201           0.9512108494511564           0
+15<-->16 : 9601.680805518115           1.1099219108097427           0
+15<-->19 : 9639.736779513201           0.951399349877111           0
+14<-->13 : 9601.649222962258           1.1097460328638693           0
+14<-->15 : 9639.736779513201           0.9512108494511564           0
+8<-->7 : 9601.649222962258           1.1100099125472491           0
+8<-->9 : 9601.617635397668           1.1100539238832616           0
+7<-->8 : 9601.649222962258           1.1100099125472491           0
+7<-->6 : 9639.708214398985           0.9513239497124157           0
+7<-->3 : 9639.708214398985           0.9513239497124157           0
+10<-->11 : 9601.680805518115           1.1099219108097427           0
+10<-->9 : 9639.679644754578           0.9514747918999383           0
+18<-->17 : 9639.765340098304           0.9513239257967337           0
+18<-->19 : 9601.680805518115           1.1099219108097427           0
+1<-->2 : 0           1085.8008877615725           0
+1<-->19 : 5828.8           4.575699674938555           0
+4<-->3 : 9639.765340098304           0.951248519651696           0
+4<-->5 : 9639.765340098304           0.9513239257967337           0
+6<-->7 : 9639.708214398985           0.9513239497124157           0
+6<-->5 : 9601.712383066435           1.1097899395936452           0
+12<-->13 : 9639.708214398985           0.9512485674716876           0
+12<-->11 : 9639.765340098304           0.951173137410968           0
+17<-->18 : 9639.765340098304           0.9513239257967337           0
+17<-->16 : 9639.765340098304           0.9513239257967339           0
+2<-->1 : 0           1085.8008877615725           0
+2<-->3 : 0           2163.6875306470265           0
+3<-->4 : 9639.765340098304           0.951248519651696           0
+3<-->7 : 9639.708214398985           0.9513239497124157           0
+3<-->2 : 0           2163.6875306470265           0
+5<-->4 : 9639.765340098304           0.9513239257967337           0
+5<-->6 : 9601.712383066435           1.1097899395936452           0
+5<-->11 : 9639.765340098304           0.9513239257967337           0
+16<-->15 : 9601.680805518115           1.1099219108097427           0
+16<-->17 : 9639.765340098304           0.9513239257967339           0
+19<-->15 : 9639.736779513201           0.951399349877111           0
+19<-->18 : 9601.680805518115           1.1099219108097427           0
+19<-->1 : 5828.8           4.575699674938555           0
+9<-->8 : 9601.617635397668           1.1100539238832616           0
+9<-->10 : 9639.679644754578           0.9514747918999383           0
+11<-->10 : 9601.680805518115           1.1099219108097427           0
+11<-->12 : 9639.765340098304           0.951173137410968           0
+11<-->5 : 9639.765340098304           0.9513239257967337           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9849.356427776895           0.4767201652629906           0
+13<-->14 : 9843.000158906721           0.47672016526299066           0
+15<-->14 : 9842.97520661157           0.4767580483021884           0
+15<-->16 : 9842.97520661157           0.4767391112971329           0
+15<-->19 : 9639.736779513201           0.6346316520523507           0
+14<-->13 : 9843.000158906721           0.47672016526299066           0
+14<-->15 : 9842.97520661157           0.4767580483021884           0
+8<-->7 : 9911.012235817576           0.31780081883862354           0
+8<-->9 : 9843.012632080718           0.47662549828728196           0
+7<-->8 : 9911.012235817576           0.31780081883862354           0
+7<-->6 : 9804.862545685683           0.6356016376772471           0
+7<-->3 : 9639.82244768548           0.7139466393848244           0
+10<-->11 : 9804.878048780487           0.6355763883371734           0
+10<-->9 : 9955.509652816398           0.1588751660957607           0
+18<-->17 : 9804.862545685683           0.635626887017321           0
+18<-->19 : 9601.680805518115           0.7933430367264768           0
+1<-->2 : 0           1276.2072143651678           0
+1<-->19 : 5828.8           4.575699674938555           0
+4<-->3 : 9639.82244768548           0.8728533611391547           0
+4<-->5 : 9639.765340098304           0.7934754064070273           0
+6<-->7 : 9804.862545685683           0.6356016376772471           0
+6<-->5 : 9601.712383066435           0.8727271508833478           0
+12<-->13 : 9849.356427776895           0.4767201652629906           0
+12<-->11 : 9955.506117908788           0.15890040941931177           0
+17<-->18 : 9804.862545685683           0.635626887017321           0
+17<-->16 : 9804.862545685683           0.6356016376772469           0
+2<-->1 : 0           1276.2072143651678           0
+2<-->3 : 0           2353.928648765863           0
+3<-->4 : 9639.82244768548           0.8728533611391547           0
+3<-->7 : 9639.82244768548           0.7139466393848244           0
+3<-->2 : 0           2353.928648765863           0
+5<-->4 : 9639.765340098304           0.7934754064070273           0
+5<-->6 : 9601.712383066435           0.8727271508833478           0
+5<-->11 : 9639.765340098304           0.7934501570669537           0
+16<-->15 : 9842.97520661157           0.4767391112971329           0
+16<-->17 : 9804.862545685683           0.6356016376772469           0
+19<-->15 : 9639.736779513201           0.6346316520523507           0
+19<-->18 : 9601.680805518115           0.7933430367264768           0
+19<-->1 : 5828.8           4.575699674938555           0
+9<-->8 : 9843.012632080718           0.47662549828728196           0
+9<-->10 : 9955.509652816398           0.1588751660957607           0
+11<-->10 : 9804.878048780487           0.6355763883371734           0
+11<-->12 : 9955.506117908788           0.15890040941931177           0
+11<-->5 : 9639.765340098304           0.7934501570669537           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9877.029960920538           0.3339557482188835           0
+13<-->14 : 9925.662179765523           0.16697787410944176           0
+15<-->14 : 9883.997568811323           0.3339255864587246           0
+15<-->16 : 9925.67508899887           0.16696921530230446           0
+15<-->19 : 9809.672657810193           0.500888379688087           0
+14<-->13 : 9925.662179765523           0.16697787410944176           0
+14<-->15 : 9883.997568811323           0.3339255864587246           0
+8<-->7 : 9809.656130600903           0.5009109990438679           0
+8<-->9 : 9883.987495658215           0.3339406660292452           0
+7<-->8 : 9809.656130600903           0.5009109990438679           0
+7<-->6 : 9931.399262702356           0.1602820964898221           0
+7<-->3 : 9824.330822247155           0.48082702325063986           0
+10<-->11 : 9925.66863494269           0.16697033301462252           0
+10<-->9 : 9719.346995484544           0.8348516650731126           0
+18<-->17 : 9883.977420755537           0.3339557482188835           0
+18<-->19 : 9877.029960920538           0.3339557482188835           0
+1<-->2 : 0           1304.4247135187115           0
+1<-->19 : 5828.8           4.420538504687875           0
+4<-->3 : 10000.0           0.0           0
+4<-->5 : 9931.404759996794           0.16026925234393782           0
+6<-->7 : 9931.399262702356           0.1602820964898221           0
+6<-->5 : 9931.399262702356           0.16027567441688           0
+12<-->13 : 9877.029960920538           0.3339557482188835           0
+12<-->11 : 9779.469508774742           0.6410770093757512           0
+17<-->18 : 9883.977420755537           0.3339557482188835           0
+17<-->16 : 9931.399262702356           0.16027567441688           0
+2<-->1 : 0           1304.4247135187115           0
+2<-->3 : 0           2601.0337790633002           0
+3<-->4 : 10000.0           0.0           0
+3<-->7 : 9824.330822247155           0.48082702325063986           0
+3<-->2 : 0           2601.0337790633002           0
+5<-->4 : 9931.404759996794           0.16026925234393782           0
+5<-->6 : 9931.399262702356           0.16027567441688           0
+5<-->11 : 9931.404759996794           0.1602692523439378           0
+16<-->15 : 9925.67508899887           0.16696921530230446           0
+16<-->17 : 9931.399262702356           0.16027567441688           0
+19<-->15 : 9809.672657810193           0.500888379688087           0
+19<-->18 : 9877.029960920538           0.3339557482188835           0
+19<-->1 : 5828.8           4.420538504687875           0
+9<-->8 : 9883.987495658215           0.3339406660292452           0
+9<-->10 : 9719.346995484544           0.8348516650731126           0
+11<-->10 : 9925.66863494269           0.16697033301462252           0
+11<-->12 : 9779.469508774742           0.6410770093757512           0
+11<-->5 : 9931.404759996794           0.1602692523439378           0
+switch12: port modified 3
+switch10: port modified 3
+switch7: port modified 3
+switch8: port modified 1
+switch8: port modified 3
+switch8: port modified 2
+switch2: port modified 2
+switch2: port modified 1
+switch1: port modified 2
+switch1: port modified 3
+switch12: port modified 1
+switch14: port modified 2
+switch3: port modified 4
+switch3: port modified 3
+switch10: port modified 1
+switch10: port modified 2
+switch18: port modified 3
+switch6: port modified 3
+switch13: port modified 1
+switch19: port modified 2
+switch11: port modified 2
+switch15: port modified 2
+switch5: port modified 1
+switch7: port modified 1
+switch13: port modified 2
+switch19: port modified 4
+switch5: port modified 4
+switch17: port modified 2
+switch11: port modified 4
+switch4: port modified 3
+switch16: port modified 3
+switch7: port modified 4
+switch9: port modified 2
+switch17: port modified 3
+switch19: port modified 3
+switch17: port modified 1
+switch5: port modified 3
+switch19: port modified 1
+Graph created is  [(13, 13), (13, 12), (13, 14), (12, 12), (12, 11), (14, 15), (14, 14), (15, 15), (15, 16), (15, 19), (16, 17), (16, 16), (19, 18), (19, 1), (19, 19), (8, 8), (8, 7), (8, 9), (7, 7), (7, 6), (7, 3), (9, 10), (9, 9), (6, 6), (6, 5), (3, 4), (3, 2), (3, 3), (10, 10), (10, 11), (11, 5), (11, 11), (18, 18), (18, 17), (17, 17), (1, 1), (1, 2), (2, 2), (4, 4), (4, 5), (5, 5)]
+num of nodes  20
+thread dest:  1
+thread dest:  2
+thread dest:  3
+thread dest:  4
+thread dest:  5
+thread dest:  6
+thread dest:  7
+thread dest:  8
+thread dest:  9
+thread dest:  10
+thread dest:  11
+thread dest:  12
+thread dest:  13
+thread dest:  14
+thread dest:  15
+thread dest:  16
+thread dest:  17
+thread dest:  18
+current version and ryu_version -1 2
+Starting thread with destination 1
+
+reward:  0.0001766681671142578
+iterations:  0.14232659339904785
+current version and ryu_version -1 2
+Starting thread with destination 2
+
+reward:  0.0001761913299560547
+iterations:  0.1377723217010498
+current version and ryu_version -1 2
+Starting thread with destination 3
+
+reward:  0.00019931793212890625
+iterations:  0.13519954681396484
+current version and ryu_version -1 2
+Starting thread with destination 4
+
+reward:  0.00017786026000976562
+iterations:  0.1328580379486084
+current version and ryu_version -1 2
+Starting thread with destination 5
+
+reward:  0.00019478797912597656
+iterations:  0.13140416145324707
+current version and ryu_version -1 2
+Starting thread with destination 6
+
+reward:  0.00019407272338867188
+iterations:  0.13110709190368652
+current version and ryu_version -1 2
+Starting thread with destination 7
+
+reward:  0.00019407272338867188
+iterations:  0.13243317604064941
+current version and ryu_version -1 2
+Starting thread with destination 8
+
+reward:  0.00019168853759765625
+iterations:  0.1323223114013672
+current version and ryu_version -1 2
+Starting thread with destination 9
+
+reward:  0.00019168853759765625
+iterations:  0.12915396690368652
+current version and ryu_version -1 2
+Starting thread with destination 10
+
+reward:  0.0001742839813232422
+iterations:  0.13104963302612305
+current version and ryu_version -1 2
+Starting thread with destination 11
+
+reward:  0.00017714500427246094
+iterations:  0.1276264190673828
+current version and ryu_version -1 2
+Starting thread with destination 12
+
+reward:  0.0001761913299560547
+iterations:  0.13743138313293457
+current version and ryu_version -1 2
+Starting thread with destination 13
+
+reward:  0.00019025802612304688
+iterations:  0.1335148811340332
+current version and ryu_version -1 2
+Starting thread with destination 14
+
+reward:  0.00017786026000976562
+iterations:  0.1318666934967041
+current version and ryu_version -1 2
+Starting thread with destination 15
+
+reward:  0.00019311904907226562
+iterations:  0.1347048282623291
+current version and ryu_version -1 2
+Starting thread with destination 16
+
+reward:  0.000202178955078125
+iterations:  0.13397502899169922
+current version and ryu_version -1 2
+Starting thread with destination 17
+
+reward:  0.00019097328186035156
+iterations:  0.14365506172180176
+current version and ryu_version -1 2
+Starting thread with destination 18
+
+reward:  0.00017404556274414062
+iterations:  0.14962530136108398
+current version and ryu_version 2 3
+Starting thread with destination 1
+
+reward:  0.00019121170043945312
+iterations:  0.13516569137573242
+current version and ryu_version 2 3
+Starting thread with destination 2
+
+reward:  0.00017571449279785156
+iterations:  0.14204788208007812
+current version and ryu_version 2 3
+Starting thread with destination 3
+
+reward:  0.0001761913299560547
+iterations:  0.12891077995300293
+current version and ryu_version 2 3
+Starting thread with destination 4
+
+reward:  0.00017762184143066406
+iterations:  0.13389182090759277
+current version and ryu_version 2 3
+Starting thread with destination 5
+
+reward:  0.00019693374633789062
+iterations:  0.13837170600891113
+current version and ryu_version 2 3
+Starting thread with destination 6
+
+reward:  0.0001895427703857422
+iterations:  0.13576483726501465
+current version and ryu_version 2 3
+Starting thread with destination 7
+
+reward:  0.0001919269561767578
+iterations:  0.13880443572998047
+current version and ryu_version 2 3
+Starting thread with destination 8
+
+reward:  0.00017952919006347656
+iterations:  0.14344024658203125
+current version and ryu_version 2 3
+Starting thread with destination 9
+
+reward:  0.00019288063049316406
+iterations:  0.1371016502380371
+current version and ryu_version 2 3
+Starting thread with destination 10
+
+reward:  0.00017762184143066406
+iterations:  0.13602161407470703
+current version and ryu_version 2 3
+Starting thread with destination 11
+
+reward:  0.00017833709716796875
+iterations:  0.1378159523010254
+current version and ryu_version 2 3
+Starting thread with destination 12
+
+reward:  0.00019502639770507812
+iterations:  0.1358048915863037
+current version and ryu_version 2 3
+Starting thread with destination 13
+
+reward:  0.00019121170043945312
+iterations:  0.13643622398376465
+current version and ryu_version 2 3
+Starting thread with destination 14
+
+reward:  0.0001926422119140625
+iterations:  0.138261079788208
+current version and ryu_version 2 3
+Starting thread with destination 15
+
+reward:  0.000194549560546875
+iterations:  0.1389634609222412
+current version and ryu_version 2 3
+Starting thread with destination 16
+
+reward:  0.0001773834228515625
+iterations:  0.1495509147644043
+current version and ryu_version 2 3
+Starting thread with destination 17
+
+reward:  0.00019216537475585938
+iterations:  0.1445155143737793
+current version and ryu_version 2 3
+Starting thread with destination 18
+
+reward:  0.00017499923706054688
+iterations:  0.15097832679748535
+current version and ryu_version 3 4
+Starting thread with destination 1
+
+reward:  0.0002028942108154297
+iterations:  0.14775347709655762
+current version and ryu_version 3 4
+Starting thread with destination 2
+
+reward:  0.00018310546875
+iterations:  0.14441752433776855
+current version and ryu_version 3 4
+Starting thread with destination 3
+
+reward:  0.00020265579223632812
+iterations:  0.13943099975585938
+current version and ryu_version 3 4
+Starting thread with destination 4
+
+reward:  0.00019216537475585938
+iterations:  0.14351153373718262
+current version and ryu_version 3 4
+Starting thread with destination 5
+
+reward:  0.0002052783966064453
+iterations:  0.1362287998199463
+current version and ryu_version 3 4
+Starting thread with destination 6
+
+reward:  0.00019431114196777344
+iterations:  0.14183998107910156
+current version and ryu_version 3 4
+Starting thread with destination 7
+
+reward:  0.00020503997802734375
+iterations:  0.13455915451049805
+current version and ryu_version 3 4
+Starting thread with destination 8
+
+reward:  0.00019097328186035156
+iterations:  0.13911080360412598
+current version and ryu_version 3 4
+Starting thread with destination 9
+
+reward:  0.00019240379333496094
+iterations:  0.13718342781066895
+current version and ryu_version 3 4
+Starting thread with destination 10
+
+reward:  0.00019168853759765625
+iterations:  0.1378190517425537
+current version and ryu_version 3 4
+Starting thread with destination 11
+
+reward:  0.000194549560546875
+iterations:  0.14134621620178223
+current version and ryu_version 3 4
+Starting thread with destination 12
+
+reward:  
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9956.060051263274           0.17566707513696117           0
+13<-->14 : 9954.89993422907           0.17808398562488362           0
+15<-->14 : 9954.904171364149           0.17807515826013767           0
+15<-->16 : 9956.060051263274           0.17566707513696117           0
+15<-->19 : 9956.056028563582           0.17567545576131977           0
+14<-->13 : 9954.89993422907           0.17808398562488362           0
+14<-->15 : 9954.904171364149           0.17807515826013767           0
+8<-->7 : 10000.0           0.0           0
+8<-->9 : 10000.0           0.0           0
+7<-->8 : 10000.0           0.0           0
+7<-->6 : 9956.060051263274           0.18305798706686233           0
+7<-->3 : 10000.0           0.0           0
+10<-->11 : 10000.0           0.0           0
+10<-->9 : 10000.0           0.0           0
+18<-->17 : 10000.0           0.0           0
+18<-->19 : 10000.0           0.0           0
+1<-->2 : 0           1303.79860856829           0
+1<-->19 : 5828.8           4.191549940492538           0
+4<-->3 : 9956.056028563582           0.1830915003607188           0
+4<-->5 : 9956.056028563582           0.1830915003607188           0
+6<-->7 : 9956.060051263274           0.18305798706686233           0
+6<-->5 : 10000.0           0.0           0
+12<-->13 : 9956.060051263274           0.17566707513696117           0
+12<-->11 : 9956.056028563582           0.1830915003607189           0
+17<-->18 : 10000.0           0.0           0
+17<-->16 : 9956.056028563582           0.1830915003607189           0
+2<-->1 : 0           1303.79860856829           0
+2<-->3 : 0           2599.6887586964485           0
+3<-->4 : 9956.056028563582           0.1830915003607188           0
+3<-->7 : 10000.0           0.0           0
+3<-->2 : 0           2599.6887586964485           0
+5<-->4 : 9956.056028563582           0.1830915003607188           0
+5<-->6 : 10000.0           0.0           0
+5<-->11 : 9956.056028563582           0.1830915003607189           0
+16<-->15 : 9956.060051263274           0.17566707513696117           0
+16<-->17 : 9956.056028563582           0.1830915003607189           0
+19<-->15 : 9956.056028563582           0.17567545576131977           0
+19<-->18 : 10000.0           0.0           0
+19<-->1 : 5828.8           4.191549940492538           0
+9<-->8 : 10000.0           0.0           0
+9<-->10 : 10000.0           0.0           0
+11<-->10 : 10000.0           0.0           0
+11<-->12 : 9956.056028563582           0.1830915003607189           0
+11<-->5 : 9956.056028563582           0.1830915003607189           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9956.060051263274           0.17566707513696117           0
+13<-->14 : 9721.516858656352           0.5045408856547223           0
+15<-->14 : 9761.856710393542           0.42048609380897606           0
+15<-->16 : 9714.802376646861           0.5146774828912728           0
+15<-->19 : 9956.056028563582           0.17567545576131977           0
+14<-->13 : 9721.516858656352           0.5045408856547223           0
+14<-->15 : 9761.856710393542           0.42048609380897606           0
+8<-->7 : 9714.802376646861           0.43055196762249204           0
+8<-->9 : 9714.802376646861           0.43055196762249204           0
+7<-->8 : 9714.802376646861           0.43055196762249204           0
+7<-->6 : 9956.060051263274           0.18305798706686233           0
+7<-->3 : 10000.0           0.0           0
+10<-->11 : 9714.802376646861           0.43055196762249204           0
+10<-->9 : 9804.35718591234           0.25833118057349524           0
+18<-->17 : 9756.09335974507           0.3445009043148737           0
+18<-->19 : 10000.0           0.0           0
+1<-->2 : 0           1303.79860856829           0
+1<-->19 : 5828.8           4.191549940492538           0
+4<-->3 : 9714.802376646861           0.5220935274906722           0
+4<-->5 : 9714.802376646861           0.5220935274906722           0
+6<-->7 : 9956.060051263274           0.18305798706686233           0
+6<-->5 : 10000.0           0.0           0
+12<-->13 : 9956.060051263274           0.17566707513696117           0
+12<-->11 : 9956.056028563582           0.1830915003607189           0
+17<-->18 : 9756.09335974507           0.3445009043148737           0
+17<-->16 : 9714.753251227285           0.8611780980160841           0
+2<-->1 : 0           1303.79860856829           0
+2<-->3 : 0           2599.6887586964485           0
+3<-->4 : 9714.802376646861           0.5220935274906722           0
+3<-->7 : 10000.0           0.0           0
+3<-->2 : 0           2599.6887586964485           0
+5<-->4 : 9714.802376646861           0.5220935274906722           0
+5<-->6 : 10000.0           0.0           0
+5<-->11 : 9956.056028563582           0.1830915003607189           0
+16<-->15 : 9714.802376646861           0.5146774828912728           0
+16<-->17 : 9714.753251227285           0.8611780980160841           0
+19<-->15 : 9956.056028563582           0.17567545576131977           0
+19<-->18 : 10000.0           0.0           0
+19<-->1 : 5828.8           4.191549940492538           0
+9<-->8 : 9714.802376646861           0.43055196762249204           0
+9<-->10 : 9804.35718591234           0.25833118057349524           0
+11<-->10 : 9714.802376646861           0.43055196762249204           0
+11<-->12 : 9956.056028563582           0.1830915003607189           0
+11<-->5 : 9956.056028563582           0.1830915003607189           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+13<-->12 : 9951.287404314544           0.1673016121596101           0
+13<-->14 : 10000.0           0.0           0
+15<-->14 : 9958.235447663796           0.16732431818362714           0
+15<-->16 : 10000.0           0.0           0
+15<-->19 : 9756.135365538621           0.3444415740979934           0
+14<-->13 : 10000.0           0.0           0
+14<-->15 : 9958.235447663796           0.16732431818362714           0
+8<-->7 : 9961.448879608064           0.08031483414986743           0
+8<-->9 : 9958.242714223576           0.16730917951741858           0
+7<-->8 : 9961.448879608064           0.08031483414986743           0
+7<-->6 : 9714.77781605236           0.4305890458146744           0
+7<-->3 : 9756.135365538621           0.5050712423977285           0
+10<-->11 : 9714.802376646861           0.5175614516562516           0
+10<-->9 : 9909.51013660489           0.3346486363672545           0
+18<-->17 : 9961.455071067212           0.08030193527664015           0
+18<-->19 : 9763.02419702058           0.5184151301174788           0
+1<-->2 : 5876.8           11.62929649855445           0
+1<-->19 : 5828.8           4.358331180573495           0
+4<-->3 : 9714.802376646861           0.4305519676224918           0
+4<-->5 : 10000.0           0.0           0
+6<-->7 : 9714.77781605236           0.4305890458146744           0
+6<-->5 : 9673.44126765415           0.5167068549776093           0
+12<-->13 : 9951.287404314544           0.1673016121596101           0
+12<-->11 : 9804.35718591234           0.41896084887323015           0
+17<-->18 : 9961.455071067212           0.08030193527664015           0
+17<-->16 : 10000.0           0.0           0
+2<-->1 : 5876.8           11.62929649855445           0
+2<-->3 : 0           1235.8218393384745           0
+3<-->4 : 9714.802376646861           0.4305519676224918           0
+3<-->7 : 9756.135365538621           0.5050712423977285           0
+3<-->2 : 0           1235.8218393384745           0
+5<-->4 : 10000.0           0.0           0
+5<-->6 : 9673.44126765415           0.5167068549776093           0
+5<-->11 : 9714.802376646861           0.4305519676224918           0
+16<-->15 : 10000.0           0.0           0
+16<-->17 : 10000.0           0.0           0
+19<-->15 : 9756.135365538621           0.3444415740979934           0
+19<-->18 : 9763.02419702058           0.5184151301174788           0
+19<-->1 : 5828.8           4.358331180573495           0
+9<-->8 : 9958.242714223576           0.16730917951741858           0
+9<-->10 : 9909.51013660489           0.3346486363672545           0
+11<-->10 : 9714.802376646861           0.5175614516562516           0
+11<-->12 : 9804.35718591234           0.41896084887323015           0
+11<-->5 : 9714.802376646861           0.4305519676224918           0
+0.00018644332885742188
+iterations:  0.1350550651550293
+current version and ryu_version 3 4
+Starting thread with destination 13
+
+reward:  0.0002028942108154297
+iterations:  0.1354358196258545
+current version and ryu_version 3 4
+Starting thread with destination 14
+
+reward:  0.00019097328186035156
+iterations:  0.13670969009399414
+current version and ryu_version 3 4
+Starting thread with destination 15
+
+reward:  0.0002052783966064453
+iterations:  0.14220523834228516
+current version and ryu_version 3 4
+Starting thread with destination 16
+
+reward:  0.00021314620971679688
+iterations:  0.14865708351135254
+current version and ryu_version 3 4
+Starting thread with destination 17
+
+reward:  0.0001926422119140625
+iterations:  0.14250922203063965
+current version and ryu_version 3 4
+Starting thread with destination 18
+
+reward:  0.0002033710479736328
+iterations:  0.14168787002563477
+current version and ryu_version 4 5
+Starting thread with destination 1
+
+reward:  0.00019502639770507812
+iterations:  0.14014339447021484
+current version and ryu_version 4 5
+Starting thread with destination 2
+
+reward:  0.00017714500427246094
+iterations:  0.14068341255187988
+current version and ryu_version 4 5
+Starting thread with destination 3
+
+reward:  0.00017714500427246094
+iterations:  0.1400432586669922
+current version and ryu_version 4 5
+Starting thread with destination 4
+
+reward:  0.0001957416534423828
+iterations:  0.14097046852111816
+current version and ryu_version 4 5
+Starting thread with destination 5
+
+reward:  0.00019288063049316406
+iterations:  0.13828349113464355
+current version and ryu_version 4 5
+Starting thread with destination 6
+
+reward:  0.00019550323486328125
+iterations:  0.13881564140319824
+current version and ryu_version 4 5
+Starting thread with destination 7
+
+reward:  0.00019478797912597656
+iterations:  0.13931989669799805
+current version and ryu_version 4 5
+Starting thread with destination 8
+
+reward:  0.00019788742065429688
+iterations:  0.14018011093139648
+current version and ryu_version 4 5
+Starting thread with destination 9
+
+reward:  0.00020503997802734375
+iterations:  0.14148831367492676
+current version and ryu_version 4 5
+Starting thread with destination 10
+
+reward:  0.0001773834228515625
+iterations:  0.1383194923400879
+current version and ryu_version 4 5
+Starting thread with destination 11
+
+reward:  0.0001773834228515625
+iterations:  0.13833117485046387
+current version and ryu_version 4 5
+Starting thread with destination 12
+
+reward:  0.00017642974853515625
+iterations:  0.13956189155578613
+current version and ryu_version 4 5
+Starting thread with destination 13
+
+reward:  0.00019121170043945312
+iterations:  0.13437104225158691
+current version and ryu_version 4 5
+Starting thread with destination 14
+
+reward:  0.0001742839813232422
+iterations:  0.13588833808898926
+current version and ryu_version 4 5
+Starting thread with destination 15
+
+reward:  0.00019240379333496094
+iterations:  0.13944745063781738
+current version and ryu_version 4 5
+Starting thread with destination 16
+
+reward:  0.0001761913299560547
+iterations:  0.14572691917419434
+current version and ryu_version 4 5
+Starting thread with destination 17
+
+reward:  0.00020837783813476562
+iterations:  0.13883233070373535
+current version and ryu_version 4 5
+Starting thread with destination 18
+
+reward:  0.0001761913299560547
+iterations:  0.13704991340637207
+current version and ryu_version 5 6
+Starting thread with destination 1
+
+reward:  0.0001926422119140625
+iterations:  0.13465476036071777
+current version and ryu_version 5 6
+Starting thread with destination 2
+
+reward:  0.00018215179443359375
+iterations:  0.13398051261901855
+current version and ryu_version 5 6
+Starting thread with destination 3
+
+reward:  0.00017642974853515625
+iterations:  0.13312911987304688
+current version and ryu_version 5 6
+Starting thread with destination 4
+
+reward:  0.00017690658569335938
+iterations:  0.1327977180480957
+current version and ryu_version 5 6
+Starting thread with destination 5
+
+reward:  0.00019216537475585938
+iterations:  0.1361091136932373
+current version and ryu_version 5 6
+Starting thread with destination 6
+
+reward:  0.00017571449279785156
+iterations:  0.1330089569091797
+current version and ryu_version 5 6
+Starting thread with destination 7
+
+reward:  0.0001895427703857422
+iterations:  0.1342473030090332
+current version and ryu_version 5 6
+Starting thread with destination 8
+
+reward:  0.00017762184143066406
+iterations:  0.12970685958862305
+current version and ryu_version 5 6
+Starting thread with destination 9
+
+reward:  0.00019168853759765625
+iterations:  0.13103079795837402
+current version and ryu_version 5 6
+Starting thread with destination 10
+
+reward:  0.00017976760864257812
+iterations:  0.13491201400756836
+current version and ryu_version 5 6
+Starting thread with destination 11
+
+reward:  0.00017762184143066406
+iterations:  0.12855911254882812
+current version and ryu_version 5 6
+Starting thread with destination 12
+
+reward:  0.00019359588623046875
+iterations:  0.12978768348693848
+current version and ryu_version 5 6
+Starting thread with destination 13
+
+reward:  0.00019168853759765625
+iterations:  0.1309502124786377
+current version and ryu_version 5 6
+Starting thread with destination 14
+
+reward:  0.0001773834228515625
+iterations:  0.12991619110107422
+current version and ryu_version 5 6
+Starting thread with destination 15
+
+reward:  0.00019121170043945312
+iterations:  0.13583683967590332
+current version and ryu_version 5 6
+Starting thread with destination 16
+
+reward:  0.0001780986785888672
+iterations:  0.1365668773651123
+current version and ryu_version 5 6
+Starting thread with destination 17
+
+reward:  0.00019359588623046875
+iterations:  0.1361382007598877
+current version and ryu_version 5 6
+Starting thread with destination 18
+
+reward:  0.00017786026000976562
+iterations:  0.13972926139831543
+current version and ryu_version 6 7
+Starting thread with destination 1
+
+reward:  0.0001938343048095703
+iterations:  0.13551902770996094
+current version and ryu_version 6 7
+Starting thread with destination 2
+
+reward:  0.00017786026000976562
+iterations:  0.13219285011291504
+current version and ryu_version 6 7
+Starting thread with destination 3
+
+reward:  0.00017786026000976562
+iterations:  0.13657665252685547
+current version and ryu_version 6 7
+Starting thread with destination 4
+
+reward:  0.00017976760864257812
+iterations:  0.13331866264343262
+current version and ryu_version 6 7
+Starting thread with destination 5
+
+reward:  0.0001919269561767578
+iterations:  0.13156509399414062
+current version and ryu_version 6 7
+Starting thread with destination 6
+
+reward:  0.0001933574676513672
+iterations:  0.13396382331848145
+current version and ryu_version 6 7
+Starting thread with destination 7
+
+reward:  0.00019478797912597656
+iterations:  0.13596177101135254
+current version and ryu_version 6 7
+Starting thread with destination 8
+
+reward:  0.00017833709716796875
+iterations:  0.1336061954498291
+current version and ryu_version 6 7
+Starting thread with destination 9
+
+reward:  0.0001933574676513672
+iterations:  0.12903666496276855
+current version and ryu_version 6 7
+Starting thread with destination 10
+
+reward:  0.0001780986785888672
+iterations:  0.1362614631652832
+current version and ryu_version 6 7
+Starting thread with destination 11
+
+reward:  0.0001838207244873047
+iterations:  0.13027691841125488
+current version and ryu_version 6 7
+Starting thread with destination 12
+
+reward:  0.0001819133758544922
+iterations:  0.1345055103302002
+current version and ryu_version 6 7
+Starting thread with destination 13
+
+reward:  0.00019431114196777344
+iterations:  0.13044166564941406
+current version and ryu_version 6 7
+Starting thread with destination 14
+
+reward:  0.0001957416534423828
+iterations:  0.13253235816955566
+current version and ryu_version 6 7
+Starting thread with destination 15
+
+reward:  0.00021409988403320312
+iterations:  0.14712214469909668
+current version and ryu_version 6 7
+Starting thread with destination 16
+
+reward:  0.00017952919006347656
+iterations:  0.13520026206970215
+current version and ryu_version 6 7
+Starting thread with destination 17
+
+reward:  0.00019884109497070312
+iterations:  0.1414809226989746
+current version and ryu_version 6 7
+Starting thread with destination 18

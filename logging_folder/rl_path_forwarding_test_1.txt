@@ -1,0 +1,6897 @@
+loading app ryu.app.network_awareness3.shortest_forwarding
+loading app ryu.controller.ofp_handler
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app None of NetworkAwareness
+creating context network_awareness
+instantiating app None of NetworkMonitor
+creating context network_monitor
+instantiating app None of NetworkDelayDetector
+creating context network_delay_detector
+instantiating app ryu.app.network_awareness3.shortest_forwarding of ShortestForwarding
+instantiating app ryu.controller.ofp_handler of OFPHandler
+instantiating app ryu.topology.switches of Switches
+switch:14 connected
+switch:13 connected
+switch:5 connected
+switch:12 connected
+switch:15 connected
+switch:8 connected
+switch:18 connected
+switch:10 connected
+switch:4 connected
+switch:11 connected
+switch:16 connected
+switch:6 connected
+switch:3 connected
+switch:17 connected
+switch:2 connected
+switch:7 connected
+switch:9 connected
+switch:19 connected
+switch:1 connected
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 0           0           0
+14<-->15 : 0           0           0
+13<-->14 : 0           0           0
+13<-->12 : 0           0           0
+12<-->13 : 0           0           0
+12<-->11 : 0           0           0
+5<-->11 : 0           0           0
+5<-->6 : 0           0           0
+5<-->4 : 0           0           0
+11<-->5 : 0           0           0
+11<-->10 : 0           0           0
+11<-->12 : 0           0           0
+6<-->5 : 0           0           0
+6<-->7 : 0           0           0
+4<-->5 : 0           0           0
+4<-->3 : 0           0           0
+10<-->11 : 0           0           0
+10<-->9 : 0           0           0
+9<-->10 : 0           0           0
+9<-->8 : 0           0           0
+18<-->17 : 0           0           0
+18<-->19 : 0           0           0
+17<-->18 : 0           0           0
+17<-->16 : 0           0           0
+19<-->18 : 0           0           0
+19<-->15 : 0           0           0
+19<-->1 : 0           0           0
+15<-->19 : 0           0           0
+15<-->14 : 0           0           0
+15<-->16 : 0           0           0
+8<-->9 : 0           0           0
+8<-->7 : 0           0           0
+1<-->2 : 0           0           0
+1<-->19 : 0           0           0
+2<-->1 : 0           0           0
+2<-->3 : 0           0           0
+3<-->2 : 0           0           0
+3<-->7 : 0           0           0
+3<-->4 : 0           0           0
+16<-->15 : 0           0           0
+16<-->17 : 0           0           0
+7<-->8 : 0           0           0
+7<-->6 : 0           0           0
+7<-->3 : 0           0           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9206.39695986066           1.7417464967144327           0
+14<-->15 : 9097.458633520702           1.9000118780512716           0
+13<-->14 : 9206.39695986066           1.7417464967144327           0
+13<-->12 : 9274.166732641912           1.5824668309580723           0
+12<-->13 : 9274.166732641912           1.5824668309580723           0
+12<-->11 : 9135.528815706144           1.7406445722197788           0
+5<-->11 : 9100.625445332911           2.0583462012222107           0
+5<-->6 : 9236.164990895417           1.6625762014092311           0
+5<-->4 : 9206.39695986066           1.7416775548803323           0
+11<-->5 : 9100.625445332911           2.0583462012222107           0
+11<-->10 : 9236.225459151361           1.7416086130462318           0
+11<-->12 : 9135.528815706144           1.7406445722197788           0
+6<-->5 : 9236.164990895417           1.6625762014092311           0
+6<-->7 : 9135.4603752672           1.741677554880332           0
+4<-->5 : 9206.39695986066           1.7416775548803323           0
+4<-->3 : 9274.166732641912           1.5833432317093932           0
+10<-->11 : 9236.225459151361           1.7416086130462318           0
+10<-->9 : 9168.46105129829           1.8999366687777073           0
+9<-->10 : 9168.46105129829           1.8999366687777073           0
+9<-->8 : 9168.329374505147           1.9000870992344594           0
+18<-->17 : 9236.104513064132           1.741746507631588           0
+18<-->19 : 9097.387173396675           1.9001623085080235           0
+17<-->18 : 9236.104513064132           1.741746507631588           0
+17<-->16 : 9274.166732641912           1.583343231709393           0
+19<-->18 : 9097.387173396675           1.9001623085080235           0
+19<-->15 : 9236.164990895417           1.7417464967144327           0
+19<-->1 : 9274.166732641912           1.5834059061040298           0
+15<-->19 : 9236.164990895417           1.7417464967144327           0
+15<-->14 : 9097.458633520702           1.9000118780512716           0
+15<-->16 : 9274.166732641912           1.5834059061040298           0
+8<-->9 : 9168.329374505147           1.9000870992344594           0
+8<-->7 : 9097.387173396675           1.9000870992344594           0
+1<-->2 : 9067.690602485947           1.9000870873248357           0
+1<-->19 : 9274.166732641912           1.5834059061040298           0
+2<-->1 : 9067.690602485947           1.9000870873248357           0
+2<-->3 : 9206.39695986066           1.7417464967144327           0
+3<-->2 : 9206.39695986066           1.7417464967144327           0
+3<-->7 : 9274.166732641912           1.5833432317093932           0
+3<-->4 : 9274.166732641912           1.5833432317093932           0
+16<-->15 : 9274.166732641912           1.5834059061040298           0
+16<-->17 : 9274.166732641912           1.583343231709393           0
+7<-->8 : 9097.387173396675           1.9000870992344594           0
+7<-->6 : 9135.4603752672           1.741677554880332           0
+7<-->3 : 9274.166732641912           1.5833432317093932           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9839.049235993209           0.5093378607809846           0
+14<-->15 : 9854.656592240428           0.33957298758070065           0
+13<-->14 : 9839.049235993209           0.5093378607809846           0
+13<-->12 : 9807.130730050934           0.5093378607809846           0
+12<-->13 : 9807.130730050934           0.5093378607809846           0
+12<-->11 : 9854.656592240428           0.33957298758070065           0
+5<-->11 : 10000.0           0.0           0
+5<-->6 : 9718.773881294048           0.7641437399335472           0
+5<-->4 : 9886.558546319096           0.33961623610416003           0
+11<-->5 : 10000.0           0.0           0
+11<-->10 : 9759.572119874352           0.679174802614823           0
+11<-->12 : 9854.656592240428           0.33957298758070065           0
+6<-->5 : 9718.773881294048           0.7641437399335472           0
+6<-->7 : 9759.572119874352           0.6791459751614013           0
+4<-->5 : 9886.558546319096           0.33961623610416003           0
+4<-->3 : 9766.324191220176           0.67923247220832           0
+10<-->11 : 9759.572119874352           0.679174802614823           0
+10<-->9 : 9879.76564490108           0.33961623610416003           0
+9<-->10 : 9879.76564490108           0.33961623610416003           0
+9<-->8 : 9927.315954827205           0.16979370554884143           0
+18<-->17 : 9807.114356057391           0.5093378644514015           0
+18<-->19 : 9854.656592240428           0.33955857630093433           0
+17<-->18 : 9807.114356057391           0.5093378644514015           0
+17<-->16 : 9854.656592240428           0.3395874013074115           0
+19<-->18 : 9854.656592240428           0.33955857630093433           0
+19<-->15 : 9854.656592240428           0.3395874013074115           0
+19<-->1 : 9854.656592240428           0.33957298758070065           0
+15<-->19 : 9854.656592240428           0.3395874013074115           0
+15<-->14 : 9854.656592240428           0.33957298758070065           0
+15<-->16 : 9813.906104083539           0.5093811019611173           0
+8<-->9 : 9927.315954827205           0.16979370554884143           0
+8<-->7 : 9807.114356057391           0.509359481371051           0
+1<-->2 : 9879.786059937176           0.33957298758070065           0
+1<-->19 : 9854.656592240428           0.33957298758070065           0
+2<-->1 : 9879.786059937176           0.33957298758070065           0
+2<-->3 : 9839.035571780287           0.42451308643101293           0
+3<-->2 : 9839.035571780287           0.42451308643101293           0
+3<-->7 : 9813.874501146302           0.50942435415624           0
+3<-->4 : 9766.324191220176           0.67923247220832           0
+16<-->15 : 9813.906104083539           0.5093811019611173           0
+16<-->17 : 9854.656592240428           0.3395874013074115           0
+7<-->8 : 9807.114356057391           0.509359481371051           0
+7<-->6 : 9759.572119874352           0.6791459751614013           0
+7<-->3 : 9813.874501146302           0.50942435415624           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9779.892825721827           0.6398464368551547           0
+14<-->15 : 9773.494361353276           0.6398464368551546           0
+13<-->14 : 9779.892825721827           0.6398464368551547           0
+13<-->12 : 9818.283611933137           0.479884827641366           0
+12<-->13 : 9818.283611933137           0.479884827641366           0
+12<-->11 : 9735.103575141966           0.7998080460689435           0
+5<-->11 : 9735.103575141966           0.7997440870088819           0
+5<-->6 : 9824.69609724888           0.47980807983760887           0
+5<-->4 : 9735.103575141966           0.799712115150256           0
+11<-->5 : 9735.103575141966           0.7997440870088819           0
+11<-->10 : 9863.072862512996           0.31992321842757737           0
+11<-->12 : 9735.103575141966           0.7998080460689435           0
+6<-->5 : 9824.69609724888           0.47980807983760887           0
+6<-->7 : 9824.682076301688           0.47988482764136614           0
+4<-->5 : 9735.103575141966           0.799712115150256           0
+4<-->3 : 9818.283611933137           0.4798272690901538           0
+10<-->11 : 9863.072862512996           0.31992321842757737           0
+10<-->9 : 9779.892825721827           0.6397952696071056           0
+9<-->10 : 9779.892825721827           0.6397952696071056           0
+9<-->8 : 9735.082386818109           0.799776074212772           0
+18<-->17 : 9779.892825721827           0.6398208511850948           0
+18<-->19 : 9773.494361353276           0.6398464368551547           0
+17<-->18 : 9779.892825721827           0.6398208511850948           0
+17<-->16 : 9735.124760076775           0.7997440818937939           0
+19<-->18 : 9773.494361353276           0.6398464368551547           0
+19<-->15 : 9773.494361353276           0.6398208511850948           0
+19<-->1 : 9735.103575141966           0.7997760639813687           0
+15<-->19 : 9773.494361353276           0.6398208511850948           0
+15<-->14 : 9773.494361353276           0.6398464368551546           0
+15<-->16 : 9773.494361353276           0.6398208511850948           0
+8<-->9 : 9735.082386818109           0.799776074212772           0
+8<-->7 : 9818.283611933137           0.4798848276413661           0
+1<-->2 : 9779.892825721827           0.639820851185095           0
+1<-->19 : 9735.103575141966           0.7997760639813687           0
+2<-->1 : 9779.892825721827           0.639820851185095           0
+2<-->3 : 9773.54869662562           0.5597696982607658           0
+3<-->2 : 9773.54869662562           0.5597696982607658           0
+3<-->7 : 9773.494361353276           0.6397696921202052           0
+3<-->4 : 9818.283611933137           0.4798272690901538           0
+16<-->15 : 9773.494361353276           0.6398208511850948           0
+16<-->17 : 9735.124760076775           0.7997440818937939           0
+7<-->8 : 9818.283611933137           0.4798848276413661           0
+7<-->6 : 9824.682076301688           0.47988482764136614           0
+7<-->3 : 9773.494361353276           0.6397696921202052           0
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+10.0.0.3 location is not found.
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 10000.0           0.0           0
+14<-->15 : 9960.797125122508           0.1633453119895459           0
+13<-->14 : 10000.0           0.0           0
+13<-->12 : 9921.594250245018           0.3266906239790918           0
+12<-->13 : 9921.594250245018           0.3266906239790918           0
+12<-->11 : 9960.797125122508           0.1633386421115553           0
+5<-->11 : 10000.0           0.0           0
+5<-->6 : 10000.0           0.0           0
+5<-->4 : 10000.0           0.0           0
+11<-->5 : 10000.0           0.0           0
+11<-->10 : 9960.797125122508           0.1633386421115553           0
+11<-->12 : 9960.797125122508           0.1633386421115553           0
+6<-->5 : 10000.0           0.0           0
+6<-->7 : 9960.797125122508           0.1633453119895459           0
+4<-->5 : 10000.0           0.0           0
+4<-->3 : 9960.797125122508           0.16333864211155533           0
+10<-->11 : 9960.797125122508           0.1633386421115553           0
+10<-->9 : 10000.0           0.0           0
+9<-->10 : 10000.0           0.0           0
+9<-->8 : 9960.797125122508           0.1633453119895459           0
+18<-->17 : 10000.0           0.0           0
+18<-->19 : 9960.797125122508           0.1633386421115553           0
+17<-->18 : 10000.0           0.0           0
+17<-->16 : 9960.797125122508           0.1633453119895459           0
+19<-->18 : 9960.797125122508           0.1633386421115553           0
+19<-->15 : 9960.797125122508           0.1633453119895459           0
+19<-->1 : 9960.797125122508           0.1633453119895459           0
+15<-->19 : 9960.797125122508           0.1633453119895459           0
+15<-->14 : 9960.797125122508           0.1633453119895459           0
+15<-->16 : 9960.797125122508           0.1633453119895459           0
+8<-->9 : 9960.797125122508           0.1633453119895459           0
+8<-->7 : 9921.594250245018           0.24501796798431874           0
+1<-->2 : 9960.797125122508           0.1633453119895459           0
+1<-->19 : 9960.797125122508           0.1633453119895459           0
+2<-->1 : 9960.797125122508           0.1633453119895459           0
+2<-->3 : 9960.797125122508           0.1633453119895459           0
+3<-->2 : 9960.797125122508           0.1633453119895459           0
+3<-->7 : 9960.797125122508           0.16334531198954585           0
+3<-->4 : 9960.797125122508           0.16333864211155533           0
+16<-->15 : 9960.797125122508           0.1633453119895459           0
+16<-->17 : 9960.797125122508           0.1633453119895459           0
+7<-->8 : 9921.594250245018           0.24501796798431874           0
+7<-->6 : 9960.797125122508           0.1633453119895459           0
+7<-->3 : 9960.797125122508           0.16334531198954585           0
+switch18: port modified 3
+switch17: port modified 2
+switch11: port modified 1
+switch13: port modified 1
+switch7: port modified 3
+switch14: port modified 2
+switch9: port modified 3
+switch5: port modified 2
+switch5: port modified 4
+switch7: port modified 1
+switch4: port modified 1
+switch4: port modified 2
+switch3: port modified 4
+switch3: port modified 2
+switch3: port modified 3
+switch6: port modified 1
+switch8: port modified 3
+switch19: port modified 2
+switch18: port modified 1
+switch15: port modified 1
+switch18: port modified 2
+switch12: port modified 2
+switch1: port modified 2
+switch15: port modified 2
+switch15: port modified 3
+switch6: port modified 3
+switch2: port modified 1
+switch19: port modified 3
+switch16: port modified 1
+switch12: port modified 1
+switch16: port modified 2
+switch11: port modified 2
+switch8: port modified 1
+switch15: port modified 4
+switch6: port modified 2
+switch19: port modified 1
+Graph created is  [(14, 14), (14, 13), (14, 15), (13, 13), (13, 12), (15, 19), (15, 15), (15, 16), (12, 12), (12, 11), (11, 5), (11, 11), (11, 10), (5, 5), (5, 6), (5, 4), (6, 6), (6, 7), (4, 4), (4, 3), (10, 10), (10, 9), (7, 8), (7, 3), (7, 7), (3, 2), (3, 3), (9, 9), (9, 8), (8, 8), (18, 18), (18, 17), (18, 19), (17, 17), (17, 16), (19, 19), (19, 1), (16, 16), (1, 1), (1, 2), (2, 2)]
+num of nodes  20
+thread dest:  1
+thread dest:  2
+thread dest:  3
+thread dest:  4
+thread dest:  5
+thread dest:  6
+thread dest:  7
+thread dest:  8
+thread dest:  9
+thread dest:  10
+thread dest:  11
+thread dest:  12
+thread dest:  13
+thread dest:  14
+thread dest:  15
+thread dest:  16
+thread dest:  17
+thread dest:  18
+thread with dest 1 iterations time taken: 0.13277077674865723
+
+thread with dest 2 iterations time taken: 0.13463759422302246
+
+thread with dest 3 iterations time taken: 0.1330103874206543
+
+thread with dest 4 iterations time taken: 0.13233065605163574
+
+thread with dest 5 iterations time taken: 0.1298227310180664
+
+thread with dest 6 iterations time taken: 0.12985515594482422
+
+thread with dest 7 iterations time taken: 0.13031530380249023
+
+thread with dest 8 iterations time taken: 0.12821459770202637
+
+thread with dest 9 iterations time taken: 0.13191556930541992
+
+thread with dest 10 iterations time taken: 0.1311044692993164
+
+thread with dest 11 iterations time taken: 0.12970447540283203
+
+thread with dest 12 iterations time taken: 0.1312704086303711
+
+thread with dest 13 iterations time taken: 0.12880206108093262
+
+thread with dest 14 iterations time taken: 0.1306324005126953
+
+thread with dest 15 iterations time taken: 0.13458991050720215
+
+thread with dest 16 iterations time taken: 0.14119815826416016
+
+thread with dest 17 iterations time taken: 0.14451956748962402
+
+thread with dest 18 iterations time taken: 0.13530373573303223
+
+thread with dest 1 iterations time taken: 0.13861846923828125
+
+thread with dest 2 iterations time taken: 0.1374051570892334
+
+thread with dest 3 iterations time taken: 0.1324620246887207
+
+thread with dest 4 iterations time taken: 0.13205218315124512
+
+thread with dest 5 iterations time taken: 0.1323564052581787
+
+thread with dest 6 iterations time taken: 0.12763023376464844
+
+thread with dest 7 iterations time taken: 0.138993501663208
+
+thread with dest 8 iterations time taken: 0.13762807846069336
+
+thread with dest 9 iterations time taken: 0.12865352630615234
+
+thread with dest 10 iterations time taken: 0.12636613845825195
+
+thread with dest 11 iterations time taken: 0.1347212791442871
+
+thread with dest 12 iterations time taken: 0.13032269477844238
+
+thread with dest 13 iterations time taken: 0.12838029861450195
+
+thread with dest 14 iterations time taken: 0.12969374656677246
+
+thread with dest 15 iterations time taken: 0.1339550018310547
+
+thread with dest 16 iterations time taken: 0.1392676830291748
+
+thread with dest 17 iterations time taken: 0.13338494300842285
+
+thread with dest 18 iterations time taken: 0.1411287784576416
+
+thread with dest 1 iterations time taken: 0.13355278968811035
+
+thread with dest 2 iterations time taken: 0.1349773406982422
+
+thread with dest 3 iterations time taken: 0.13577532768249512
+
+thread with dest 4 iterations time taken: 0.1334376335144043
+
+thread with dest 5 iterations time taken: 0.13158631324768066
+
+thread with dest 6 iterations time taken: 0.13172125816345215
+
+thread with dest 7 iterations time taken: 0.1368722915649414
+
+thread with dest 8 iterations time taken: 0.13339781761169434
+
+thread with dest 9 iterations time taken: 0.17729449272155762
+
+thread with dest 10 iterations time taken: 0.13372516632080078
+
+thread with dest 11 iterations time taken: 0.13299918174743652
+
+thread with dest 12 iterations time taken: 0.13386988639831543
+
+thread with dest 13 iterations time taken: 0.13375186920166016
+
+thread with dest 14 iterations time taken: 0.13800549507141113
+
+thread with dest 15 iterations time taken: 0.13702082633972168
+
+thread with dest 16 iterations time taken: 0.1445331573486328
+
+thread with dest 17 iterations time taken: 0.13902997970581055
+
+thread with dest 18 iterations time taken: 0.13709282875061035
+
+thread with dest 1 iterations time taken: 0.1427171230316162
+
+thread with dest 2 iterations time taken: 0.13758587837219238
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.036064147949219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.559226989746094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13320326805114746
+
+thread with dest 4 iterations time taken: 0.1344163417816162
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.225440979003906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.724761962890625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+thread with dest 5 iterations time taken: 0.13244342803955078
+
+thread with dest 6 iterations time taken: 0.13501596450805664
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.343292236328125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.13385915756225586
+
+thread with dest 8 iterations time taken: 0.13657402992248535
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.987022399902344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.462501525878906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.1360001564025879
+
+thread with dest 10 iterations time taken: 0.13570666313171387
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.653236389160156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.557868957519531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.13531017303466797
+
+thread with dest 12 iterations time taken: 0.13155031204223633
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.82012939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+thread with dest 13 iterations time taken: 0.13539814949035645
+
+thread with dest 14 iterations time taken: 0.1366884708404541
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.843971252441406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.462501525878906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.13617324829101562
+
+thread with dest 16 iterations time taken: 0.1499495506286621
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.416175842285156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.1351640224456787
+
+thread with dest 18 iterations time taken: 0.14244723320007324
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.963180541992188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010538101196289062
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010156631469726562
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.1393282413482666
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.0108642578125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.295608520507812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.653236389160156e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13325834274291992
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.605552673339844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13695740699768066
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.1552734375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.135009765625
+
+thread with dest 5 iterations time taken: 0.1332235336303711
+
+thread with dest 6 iterations time taken: 0.13336467742919922
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.462501525878906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.1339130401611328
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9836.28356791296           0.5180899749589845           0
+14<-->15 : 9910.197737673776           0.34539331663932304           0
+13<-->14 : 9836.28356791296           0.5180899749589845           0
+13<-->12 : 9903.289871340989           0.34539331663932304           0
+12<-->13 : 9903.289871340989           0.34539331663932304           0
+12<-->11 : 9903.28987134099           0.2543626444364438           0
+5<-->11 : 9714.01433382264           0.4317416457991539           0
+5<-->6 : 9861.84267334427           0.25904498747949234           0
+5<-->4 : 9884.638632242466           0.17269665831966158           0
+11<-->5 : 9714.01433382264           0.4317416457991539           0
+11<-->10 : 9861.84267334427           0.34071097359627467           0
+11<-->12 : 9903.28987134099           0.2543626444364438           0
+6<-->5 : 9861.84267334427           0.25904498747949234           0
+6<-->7 : 9960.797125122508           0.1633453119895459           0
+4<-->5 : 9884.638632242466           0.17269665831966158           0
+4<-->3 : 9960.797125122508           0.16333864211155533           0
+10<-->11 : 9861.84267334427           0.34071097359627467           0
+10<-->9 : 9787.928503583456           0.34539331663932293           0
+9<-->10 : 9787.928503583456           0.34539331663932293           0
+9<-->8 : 9852.184424106372           0.254354403534058           0
+18<-->17 : 9910.197737673776           0.17269665831966158           0
+18<-->19 : 9910.197737673776           0.2543626444364439           0
+17<-->18 : 9910.197737673776           0.17269665831966158           0
+17<-->16 : 9960.797125122508           0.1633453119895459           0
+19<-->18 : 9910.197737673776           0.2543626444364439           0
+19<-->15 : 9910.205491279572           0.254354403534058           0
+19<-->1 : 9960.797125122508           0.1633453119895459           0
+15<-->19 : 9910.205491279572           0.254354403534058           0
+15<-->14 : 9910.197737673776           0.34539331663932304           0
+15<-->16 : 9903.289871340989           0.25436931431443455           0
+8<-->9 : 9852.184424106372           0.254354403534058           0
+8<-->7 : 9787.946814021758           0.5087088070681159           0
+1<-->2 : 9960.797125122508           0.1633453119895459           0
+1<-->19 : 9960.797125122508           0.1633453119895459           0
+2<-->1 : 9960.797125122508           0.1633453119895459           0
+2<-->3 : 9960.797125122508           0.1633453119895459           0
+3<-->2 : 9960.797125122508           0.1633453119895459           0
+3<-->7 : 9960.797125122508           0.16334531198954585           0
+3<-->4 : 9960.797125122508           0.16333864211155533           0
+16<-->15 : 9903.289871340989           0.25436931431443455           0
+16<-->17 : 9960.797125122508           0.1633453119895459           0
+7<-->8 : 9787.946814021758           0.5087088070681159           0
+7<-->6 : 9960.797125122508           0.1633453119895459           0
+7<-->3 : 9960.797125122508           0.16334531198954585           0
+dpid:3->dpid:3 is not in links
+Port is not found
+dpid:3->dpid:3 is not in links
+Port is not found
+dpid:3->dpid:3 is not in links
+Port is not found
+dpid:3->dpid:3 is not in links
+Port is not found
+dpid:3->dpid:3 is not in links
+Port is not found
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010013580322265625
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.319450378417969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+thread with dest 8 iterations time taken: 0.13599014282226562
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.319450378417969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.13523268699645996
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.796287536621094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.13395333290100098
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.557868957519531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.1360619068145752
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 3 3
+3
+path dont, calc time:  5.698204040527344e-05
+RL path: [3, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 3 3
+3
+path dont, calc time:  5.5789947509765625e-05
+RL path: [3, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 3 3
+3
+path dont, calc time:  5.459785461425781e-05
+RL path: [3, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 3 3
+3
+path dont, calc time:  5.507469177246094e-05
+RL path: [3, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 3 3
+3
+path dont, calc time:  5.4836273193359375e-05
+RL path: [3, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.246566772460938e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.1347973346710205
+
+thread with dest 13 iterations time taken: 0.1333479881286621
+
+thread with dest 14 iterations time taken: 0.13110780715942383
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.845329284667969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.13500499725341797
+
+thread with dest 16 iterations time taken: 0.14183974266052246
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.153915405273438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.2479248046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.13524961471557617
+
+thread with dest 18 iterations time taken: 0.13996458053588867
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010395050048828125
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.14182710647583008
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13119173049926758
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.653236389160156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13064980506896973
+
+thread with dest 4 iterations time taken: 0.12876224517822266
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.034706115722656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9839.185750636132           0.5088842721504716           0
+14<-->15 : 9807.310660673395           0.4271280042614817           0
+13<-->14 : 9839.185750636132           0.5088842721504716           0
+13<-->12 : 9854.792196776929           0.3392705682782019           0
+12<-->13 : 9854.792196776929           0.3392705682782019           0
+12<-->11 : 9854.792196776929           0.16963528413910106           0
+5<-->11 : 10000.0           0.0           0
+5<-->6 : 9854.792196776929           0.254280620181085           0
+5<-->4 : 9791.687871077183           0.5932065764041541           0
+11<-->5 : 10000.0           0.0           0
+11<-->10 : 9854.804511915869           0.16962089729454674           0
+11<-->12 : 9854.792196776929           0.16963528413910106           0
+6<-->5 : 9854.792196776929           0.254280620181085           0
+6<-->7 : 9959.370238699848           0.16929067208396828           0
+4<-->5 : 9791.687871077183           0.5932065764041541           0
+4<-->3 : 9911.968850516336           0.33855268968721786           0
+10<-->11 : 9854.804511915869           0.16962089729454674           0
+10<-->9 : 9886.693240607243           0.25426623333653087           0
+9<-->10 : 9886.693240607243           0.25426623333653087           0
+9<-->8 : 9864.291772688719           0.508388934334604           0
+18<-->17 : 9807.294317217982           0.33908393501027617           0
+18<-->19 : 9807.294317217982           0.33910542769007           0
+17<-->18 : 9807.294317217982           0.33908393501027617           0
+17<-->16 : 9959.37711577522           0.1692620176032498           0
+19<-->18 : 9807.294317217982           0.33910542769007           0
+19<-->15 : 9910.205491279572           0.25733424902070384           0
+19<-->1 : 9959.366799288919           0.1663251574761917           0
+15<-->19 : 9910.205491279572           0.25733424902070384           0
+15<-->14 : 9807.310660673395           0.4271280042614817           0
+15<-->16 : 9903.289871340989           0.25732766712128646           0
+8<-->9 : 9864.291772688719           0.508388934334604           0
+8<-->7 : 9927.396098388464           0.08481764206955053           0
+1<-->2 : 0           1319.9563975586518           0
+1<-->19 : 9959.366799288919           0.1663251574761917           0
+2<-->1 : 0           1319.9563975586518           0
+2<-->3 : 0           2639.864569181601           0
+3<-->2 : 0           2639.864569181601           0
+3<-->7 : 9959.370238699848           0.16927634484360904           0
+3<-->4 : 9911.968850516336           0.33855268968721786           0
+16<-->15 : 9903.289871340989           0.25732766712128646           0
+16<-->17 : 9959.37711577522           0.1692620176032498           0
+7<-->8 : 9927.396098388464           0.08481764206955053           0
+7<-->6 : 9959.370238699848           0.16929067208396828           0
+7<-->3 : 9959.370238699848           0.16927634484360904           0
+ 1 3
+2
+path dont, calc time:  0.00017309188842773438
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 5 iterations time taken: 0.12721014022827148
+
+thread with dest 6 iterations time taken: 0.12756609916687012
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.13145852088928223
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.82012939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 8 iterations time taken: 0.12845087051391602
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.13161969184875488
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.605552673339844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.1292893886566162
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.12877488136291504
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.891654968261719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.12656736373901367
+
+thread with dest 13 iterations time taken: 0.12871551513671875
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.200241088867188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+thread with dest 14 iterations time taken: 0.13375234603881836
+
+thread with dest 15 iterations time taken: 0.13141155242919922
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.605552673339844e-05
+RL path: [1, 2, 3]
+thread with dest 16 iterations time taken: 0.13721013069152832
+
+thread with dest 17 iterations time taken: 0.13869214057922363
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.225440979003906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 18 iterations time taken: 0.14260363578796387
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.965896606445312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.413459777832031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.13410639762878418
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.915496826171875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13127756118774414
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.534027099609375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.486343383789062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 10000.0           0.0           0
+14<-->15 : 9868.291291413669           0.3776552062427475           0
+13<-->14 : 10000.0           0.0           0
+13<-->12 : 9916.528997478481           0.3477958438396662           0
+12<-->13 : 9916.528997478481           0.3477958438396662           0
+12<-->11 : 9916.528997478481           0.34399487718433386           0
+5<-->11 : 9958.268127282212           0.17198987912764258           0
+5<-->6 : 9958.268127282212           0.08694140149539215           0
+5<-->4 : 10000.0           0.0           0
+11<-->5 : 9958.268127282212           0.17198987912764258           0
+11<-->10 : 9958.26449873924           0.17199743859216693           0
+11<-->12 : 9916.528997478481           0.34399487718433386           0
+6<-->5 : 9958.268127282212           0.08694140149539215           0
+6<-->7 : 9959.176730736519           0.17009695526450075           0
+4<-->5 : 10000.0           0.0           0
+4<-->3 : 9959.176730736519           0.17009695526450083           0
+10<-->11 : 9958.26449873924           0.17199743859216693           0
+10<-->9 : 10000.0           0.0           0
+9<-->10 : 10000.0           0.0           0
+9<-->8 : 10000.0           0.0           0
+18<-->17 : 9958.268127282212           0.17198264649921902           0
+18<-->19 : 9958.268127282212           0.17198264649921902           0
+17<-->18 : 9958.268127282212           0.17198264649921902           0
+17<-->16 : 9959.176730736519           0.17008972263607727           0
+19<-->18 : 9958.268127282212           0.17198264649921902           0
+19<-->15 : 9868.285923873176           0.37384807807514087           0
+19<-->1 : 9959.180202398164           0.1667139009985998           0
+15<-->19 : 9868.285923873176           0.37384807807514087           0
+15<-->14 : 9868.291291413669           0.3776552062427475           0
+15<-->16 : 9871.551407962834           0.37385423958741537           0
+8<-->9 : 10000.0           0.0           0
+8<-->7 : 9958.26449873924           0.17199743859216693           0
+1<-->2 : 0           1324.6266633006626           0
+1<-->19 : 9959.180202398164           0.1667139009985998           0
+2<-->1 : 0           1324.6266633006626           0
+2<-->3 : 0           2649.175029766968           0
+3<-->2 : 0           2649.175029766968           0
+3<-->7 : 9959.176730736519           0.17009695526450083           0
+3<-->4 : 9959.176730736519           0.17009695526450083           0
+16<-->15 : 9871.551407962834           0.37385423958741537           0
+16<-->17 : 9959.176730736519           0.17008972263607727           0
+7<-->8 : 9958.26449873924           0.17199743859216693           0
+7<-->6 : 9959.176730736519           0.17009695526450075           0
+7<-->3 : 9959.176730736519           0.17009695526450083           0
+
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.12712430953979492
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.133864164352417
+
+thread with dest 5 iterations time taken: 0.12956881523132324
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 6 iterations time taken: 0.1319122314453125
+
+thread with dest 7 iterations time taken: 0.13196444511413574
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.677078247070312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 8 iterations time taken: 0.12958288192749023
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.724761962890625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.134721040725708
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.843971252441406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.13225460052490234
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.2479248046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.13170194625854492
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.1284489631652832
+
+thread with dest 13 iterations time taken: 0.12922096252441406
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.963180541992188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.202957153320312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+thread with dest 14 iterations time taken: 0.13189172744750977
+
+thread with dest 15 iterations time taken: 0.13219976425170898
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.106231689453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+thread with dest 16 iterations time taken: 0.13016796112060547
+
+thread with dest 17 iterations time taken: 0.1362617015838623
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.845329284667969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+thread with dest 18 iterations time taken: 0.1351485252380371
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.965896606445312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.1400747299194336
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13187742233276367
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.226799011230469e-05
+RL path:
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9957.865168539325           0.1755540929429366           0
+14<-->15 : 10000.0           0.0           0
+13<-->14 : 9957.865168539325           0.1755540929429366           0
+13<-->12 : 10000.0           0.0           0
+12<-->13 : 10000.0           0.0           0
+12<-->11 : 10000.0           0.0           0
+5<-->11 : 9956.787900612171           0.17783693870532424           0
+5<-->6 : 9956.787900612171           0.17783693870532424           0
+5<-->4 : 9956.791790440184           0.17782883489696538           0
+11<-->5 : 9956.787900612171           0.17783693870532424           0
+11<-->10 : 9956.787900612171           0.1777984011245083           0
+11<-->12 : 10000.0           0.0           0
+6<-->5 : 9956.787900612171           0.17783693870532424           0
+6<-->7 : 10000.0           0.0           0
+4<-->5 : 9956.791790440184           0.17782883489696538           0
+4<-->3 : 9956.787900612171           0.18004231030759366           0
+10<-->11 : 9956.787900612171           0.1777984011245083           0
+10<-->9 : 9956.79956799568           0.17777409407553213           0
+9<-->10 : 9956.79956799568           0.17777409407553213           0
+9<-->8 : 9956.79956799568           0.17779721256387276           0
+18<-->17 : 9956.787900612171           0.17780610593438073           0
+18<-->19 : 9956.787900612171           0.17780610593438073           0
+17<-->18 : 9956.787900612171           0.17780610593438073           0
+17<-->16 : 10000.0           0.0           0
+19<-->18 : 9956.787900612171           0.17780610593438073           0
+19<-->15 : 10000.0           0.0           0
+19<-->1 : 9956.787900612171           0.17169786305274914           0
+15<-->19 : 10000.0           0.0           0
+15<-->14 : 10000.0           0.0           0
+15<-->16 : 10000.0           0.0           0
+8<-->9 : 9956.79956799568           0.17779721256387276           0
+8<-->7 : 9956.791790440184           0.17781341580449006           0
+1<-->2 : 0           1316.2548343876115           0
+1<-->19 : 9956.787900612171           0.17169786305274914           0
+2<-->1 : 0           1316.2548343876115           0
+2<-->3 : 0           2632.431689819238           0
+3<-->2 : 0           2632.431689819238           0
+3<-->7 : 9956.787900612171           0.18004231030759354           0
+3<-->4 : 9956.787900612171           0.18004231030759366           0
+16<-->15 : 10000.0           0.0           0
+16<-->17 : 10000.0           0.0           0
+7<-->8 : 9956.791790440184           0.17781341580449006           0
+7<-->6 : 10000.0           0.0           0
+7<-->3 : 9956.787900612171           0.18004231030759354           0
+ [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13138866424560547
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.319450378417969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.1304488182067871
+
+thread with dest 5 iterations time taken: 0.13067197799682617
+
+thread with dest 6 iterations time taken: 0.13115477561950684
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.130073547363281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.1321268081665039
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+thread with dest 8 iterations time taken: 0.1318955421447754
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.724761962890625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.12908935546875
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.13231682777404785
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.534027099609375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.12876605987548828
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.510185241699219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.13136577606201172
+
+thread with dest 13 iterations time taken: 0.13191771507263184
+
+thread with dest 14 iterations time taken: 0.13072848320007324
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.748603820800781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.13364052772521973
+
+thread with dest 16 iterations time taken: 0.13034319877624512
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.535385131835938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.1338961124420166
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.557868957519531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+thread with dest 18 iterations time taken: 0.13367033004760742
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.915496826171875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010037422180175781
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.1360013484954834
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.510185241699219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.915496826171875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9960.678299336447           0.16383370906042893           0
+14<-->15 : 10000.0           0.0           0
+13<-->14 : 9960.678299336447           0.16383370906042893           0
+13<-->12 : 9960.687960687961           0.08190008190008184           0
+12<-->13 : 9960.687960687961           0.08190008190008184           0
+12<-->11 : 9957.325746799432           0.17080477606793398           0
+5<-->11 : 9957.325746799432           0.17079136301816328           0
+5<-->6 : 9957.321952520671           0.17079926776557752           0
+5<-->4 : 9957.321952520671           0.17079926776557752           0
+11<-->5 : 9957.325746799432           0.17079136301816328           0
+11<-->10 : 10000.0           0.0           0
+11<-->12 : 9957.325746799432           0.17080477606793398           0
+6<-->5 : 9957.321952520671           0.17079926776557752           0
+6<-->7 : 9957.321952520671           0.17781729308311833           0
+4<-->5 : 9957.321952520671           0.17079926776557752           0
+4<-->3 : 10000.0           0.0           0
+10<-->11 : 10000.0           0.0           0
+10<-->9 : 9957.306768656053           0.17086444168229392           0
+9<-->10 : 9957.306768656053           0.17086444168229392           0
+9<-->8 : 9957.306768656053           0.17084431386663895           0
+18<-->17 : 9957.321952520671           0.17082609825995831           0
+18<-->19 : 9957.321952520671           0.17082609825995831           0
+17<-->18 : 9957.321952520671           0.17082609825995831           0
+17<-->16 : 9957.321952520671           0.17781729308311833           0
+19<-->18 : 9957.321952520671           0.17082609825995831           0
+19<-->15 : 9957.321952520671           0.17782519783053258           0
+19<-->1 : 9960.797125122508           0.08167265599477296           0
+15<-->19 : 9957.321952520671           0.17782519783053258           0
+15<-->14 : 10000.0           0.0           0
+15<-->16 : 10000.0           0.0           0
+8<-->9 : 9957.306768656053           0.17084431386663895           0
+8<-->7 : 10000.0           0.0           0
+1<-->2 : 0           1306.7412263147482           0
+1<-->19 : 9960.797125122508           0.08167265599477296           0
+2<-->1 : 0           1306.7412263147482           0
+2<-->3 : 0           2613.1140265505915           0
+3<-->2 : 0           2613.1140265505915           0
+3<-->7 : 10000.0           0.0           0
+3<-->4 : 10000.0           0.0           0
+16<-->15 : 10000.0           0.0           0
+16<-->17 : 9957.321952520671           0.17781729308311833           0
+7<-->8 : 10000.0           0.0           0
+7<-->6 : 9957.321952520671           0.17781729308311833           0
+7<-->3 : 10000.0           0.0           0
+
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13384103775024414
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.677078247070312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.12807822227478027
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.132568359375
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.939338684082031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+thread with dest 5 iterations time taken: 0.12990832328796387
+
+thread with dest 6 iterations time taken: 0.1360466480255127
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.034706115722656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.390975952148438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.12897562980651855
+
+thread with dest 8 iterations time taken: 0.12897801399230957
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.867813110351562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.1310901641845703
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.963180541992188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.13455724716186523
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.12753057479858398
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.1307694911956787
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+thread with dest 13 iterations time taken: 0.1284327507019043
+
+thread with dest 14 iterations time taken: 0.13022661209106445
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.12809395790100098
+
+thread with dest 16 iterations time taken: 0.13075685501098633
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.058547973632812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.13206171989440918
+
+thread with dest 18 iterations time taken: 0.14676165580749512
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.772445678710938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010037422180175781
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.200241088867188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.13356685638427734
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.557868957519531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: switch:15 connected
+[1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.13417911529541016
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.440017700195312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13060832023620605
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.559226989746094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.13670635223388672
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.748603820800781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+thread with dest 5 iterations time taken: 0.13083744049072266
+
+thread with dest 6 iterations time taken: 0.13163018226623535
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.12694215774536133
+
+thread with dest 8 iterations time taken: 0.13420748710632324
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.486343383789062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.748603820800781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.12926650047302246
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.12900876998901367
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.12859439849853516
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.12878656387329102
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.225440979003906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.319450378417969e-05
+RL path: [1, 2, 3]
+thread with dest 13 iterations time taken: 0.1282508373260498
+
+thread with dest 14 iterations time taken: 0.12889933586120605
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.534027099609375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.343292236328125e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.1359117031097412
+
+thread with dest 16 iterations time taken: 0.13591575622558594
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.13601350784301758
+
+thread with dest 18 iterations time taken: 0.13937067985534668
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.510185241699219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00010037422180175781
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.295608520507812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time: 
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9950.997549877495           0.17500875043752182           0
+14<-->15 : 9915.99579978999           0.3499256649031506           0
+13<-->14 : 9950.997549877495           0.17500875043752182           0
+13<-->12 : 9866.993349667484           0.43750656340236704           0
+12<-->13 : 9866.993349667484           0.43750656340236704           0
+12<-->11 : 9958.00157494094           0.1681744114910334           0
+5<-->11 : 9950.997549877495           0.168182067836752           0
+5<-->6 : 9901.995099754988           0.336364135673504           0
+5<-->4 : 10000.0           0.0           0
+11<-->5 : 9950.997549877495           0.168182067836752           0
+11<-->10 : 9859.992999649983           0.504546203510256           0
+11<-->12 : 9958.00157494094           0.1681744114910334           0
+6<-->5 : 9901.995099754988           0.336364135673504           0
+6<-->7 : 9870.915691811215           0.4840661557079469           0
+4<-->5 : 10000.0           0.0           0
+4<-->3 : 9916.088429885429           0.3227237893024662           0
+10<-->11 : 9859.992999649983           0.504546203510256           0
+10<-->9 : 9950.997549877495           0.16816905215672978           0
+9<-->10 : 9950.997549877495           0.16816905215672978           0
+9<-->8 : 9957.997899894995           0.16816905215672967           0
+18<-->17 : 9916.09519967729           0.24885976045474317           0
+18<-->19 : 9957.997899894995           0.168182067836752           0
+17<-->18 : 9916.09519967729           0.24885976045474317           0
+17<-->16 : 9916.088429885429           0.3227237893024662           0
+19<-->18 : 9957.997899894995           0.168182067836752           0
+19<-->15 : 9916.09519967729           0.24881384246879662           0
+19<-->1 : 9960.797125122508           0.1623503486127641           0
+15<-->19 : 9916.09519967729           0.24881384246879662           0
+15<-->14 : 9915.99579978999           0.3499256649031506           0
+15<-->16 : 9832.176859770856           0.5851121798314107           0
+8<-->9 : 9957.997899894995           0.16816905215672967           0
+8<-->7 : 9866.993349667484           0.504546203510256           0
+1<-->2 : 0           567.821525798898           0
+1<-->19 : 9960.797125122508           0.1623503486127641           0
+2<-->1 : 0           567.821525798898           0
+2<-->3 : 0           1135.4338986487937           0
+3<-->2 : 0           1135.4338986487937           0
+3<-->7 : 9961.271583024043           0.1613618946512331           0
+3<-->4 : 9916.088429885429           0.3227237893024662           0
+16<-->15 : 9832.176859770856           0.5851121798314107           0
+16<-->17 : 9916.088429885429           0.3227237893024662           0
+7<-->8 : 9866.993349667484           0.504546203510256           0
+7<-->6 : 9870.915691811215           0.4840661557079469           0
+7<-->3 : 9961.271583024043           0.1613618946512331           0
+ 6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.13428497314453125
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.987022399902344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.130073547363281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+thread with dest 2 iterations time taken: 0.1350114345550537
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.608268737792969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 3 iterations time taken: 0.13184642791748047
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.177757263183594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 4 iterations time taken: 0.12973308563232422
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.843971252441406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+thread with dest 5 iterations time taken: 0.13136816024780273
+
+thread with dest 6 iterations time taken: 0.1291201114654541
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+thread with dest 7 iterations time taken: 0.12808537483215332
+
+thread with dest 8 iterations time taken: 0.13159656524658203
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.939338684082031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.557868957519531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+thread with dest 9 iterations time taken: 0.13408946990966797
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+thread with dest 10 iterations time taken: 0.1317436695098877
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.390975952148438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+thread with dest 11 iterations time taken: 0.1330852508544922
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.748603820800781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.2479248046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+thread with dest 12 iterations time taken: 0.1329960823059082
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.200241088867188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+thread with dest 13 iterations time taken: 0.12941241264343262
+
+thread with dest 14 iterations time taken: 0.13377737998962402
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+thread with dest 15 iterations time taken: 0.13652276992797852
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.367134094238281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.462501525878906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.748603820800781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.296966552734375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00012803077697753906
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.486343383789062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.653236389160156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.463859558105469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.392333984375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.535385131835938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.891654968261719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.344650268554688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.700920104980469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.00012564659118652344
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.176399230957031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.963180541992188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.43865966796875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+thread with dest 16 iterations time taken: 0.13985228538513184
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+thread with dest 17 iterations time taken: 0.1338491439819336
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+thread with dest 18 iterations time taken: 0.13794684410095215
+
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.081031799316406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.177757263183594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.224082946777344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.891654968261719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.343292236328125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.510185241699219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.319450378417969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.0108642578125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.2479248046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.867813110351562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.271766662597656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.343292236328125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.413459777832031e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.152557373046875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.510185241699219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.414817810058594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.772445678710938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  0.0001342296600341797
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.772445678710938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.62939453125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.606910705566406e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.033348083496094e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.723403930664062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time: 
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9759.67164439787           0.6986289407038686           0
+14<-->15 : 9752.68535499083           0.6947077869912579           0
+13<-->14 : 9759.67164439787           0.6986289407038686           0
+13<-->12 : 9801.589380840102           0.5239717055279015           0
+12<-->13 : 9801.589380840102           0.5239717055279015           0
+12<-->11 : 9752.663755458516           0.691137680891736           0
+5<-->11 : 9759.67164439787           0.6911071730777312           0
+5<-->6 : 9808.57567024714           0.5183303798082981           0
+5<-->4 : 9764.806426801128           0.60383697659952           0
+11<-->5 : 9759.67164439787           0.6911071730777312           0
+11<-->10 : 9808.575670247139           0.5183303798082988           0
+11<-->12 : 9752.663755458516           0.691137680891736           0
+6<-->5 : 9808.57567024714           0.5183303798082981           0
+6<-->7 : 9812.665584138107           0.5127328699210245           0
+4<-->5 : 9764.806426801128           0.60383697659952           0
+4<-->3 : 9812.665584138107           0.5127766857533544           0
+10<-->11 : 9808.575670247139           0.5183303798082988           0
+10<-->9 : 9759.67164439787           0.6911071730777307           0
+9<-->10 : 9759.67164439787           0.6911071730777307           0
+9<-->8 : 9850.493406689373           0.3455535865388656           0
+18<-->17 : 9808.575670247139           0.43291141468173583           0
+18<-->19 : 9758.010766470135           0.6037785554897481           0
+17<-->18 : 9808.575670247139           0.43291141468173583           0
+17<-->16 : 9764.806426801128           0.6837022476711396           0
+19<-->18 : 9758.010766470135           0.6037785554897481           0
+19<-->15 : 9755.46153181936           0.6017378436836712           0
+19<-->1 : 9716.99564214304           0.5089135344020194           0
+15<-->19 : 9755.46153181936           0.6017378436836712           0
+15<-->14 : 9752.68535499083           0.6947077869912579           0
+15<-->16 : 9803.816596148865           0.4299705493972774           0
+8<-->9 : 9850.493406689373           0.3455535865388656           0
+8<-->7 : 9801.589380840102           0.518374195640628           0
+1<-->2 : 7720.926258224387           8.028352994369547           0
+1<-->19 : 9716.99564214304           0.5089135344020194           0
+2<-->1 : 7720.926258224387           8.028352994369547           0
+2<-->3 : 7720.53670626442           15.894718967551771           0
+3<-->2 : 7720.53670626442           15.894718967551771           0
+3<-->7 : 9716.947269464148           0.8545912932750634           0
+3<-->4 : 9812.665584138107           0.5127766857533544           0
+16<-->15 : 9803.816596148865           0.4299705493972774           0
+16<-->17 : 9764.806426801128           0.6837022476711396           0
+7<-->8 : 9801.589380840102           0.518374195640628           0
+7<-->6 : 9812.665584138107           0.5127328699210245           0
+7<-->3 : 9716.947269464148           0.8545912932750634           0
+ 6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.937980651855469e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  9.012222290039062e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.009506225585938e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.67572021484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.914138793945312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.961822509765625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.200241088867188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.628036499023438e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.104873657226562e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.890296936035156e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.296966552734375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.677078247070312e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.651878356933594e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.05718994140625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.985664367675781e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.842613220214844e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  7.128715515136719e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.437301635742188e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.699562072753906e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.580352783203125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.794929504394531e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.747245788574219e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.532669067382812e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.508827209472656e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.818771362304688e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.866455078125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.461143493652344e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.389617919921875e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.4849853515625e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.556510925292969e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  8.0108642578125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.29425048828125e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.604194641113281e-05
+RL path: [1, 2, 3]
+SOURCE AND DESTINATION 1 3
+2
+path dont, calc time:  6.771087646484375e-05
+RL path: [1, 2, 3]
+thread with dest 1 iterations time taken: 0.14130854606628418
+
+thread with dest 2 iterations time taken: 0.13914179801940918
+
+thread with dest 3 iterations time taken: 0.1378493309020996
+
+thread with dest 4 iterations time taken: 0.1338205337524414
+
+thread with dest 5 iterations time taken: 0.13029122352600098
+
+thread with dest 6 iterations time taken: 0.13438081741333008
+
+thread with dest 7 iterations time taken: 0.1338045597076416
+
+thread with dest 8 iterations time taken: 0.12736988067626953
+
+thread with dest 9 iterations time taken: 0.12735986709594727
+
+thread with dest 10 iterations time taken: 0.13115262985229492
+
+thread with dest 11 iterations time taken: 0.12936186790466309
+
+thread with dest 12 iterations time taken: 0.12961387634277344
+
+thread with dest 13 iterations time taken: 0.12881684303283691
+
+thread with dest 14 iterations time taken: 0.13722467422485352
+
+thread with dest 15 iterations time taken: 0.13759708404541016
+
+thread with dest 16 iterations time taken: 0.1409916877746582
+
+thread with dest 17 iterations time taken: 0.13215041160583496
+
+thread with dest 18 iterations time taken: 0.13704156875610352
+
+thread with dest 1 iterations time taken: 0.13246393203735352
+
+thread with dest 2 iterations time taken: 0.12812137603759766
+
+thread with dest 3 iterations time taken: 0.129655122756958
+
+thread with dest 4 iterations time taken: 0.12869644165039062
+
+thread with dest 5 iterations time taken: 0.12900352478027344
+
+thread with dest 6 iterations time taken: 0.1308574676513672
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 9957.405271097701           0.17747803709290988           0
+14<-->15 : 9956.881063600431           0.1785701360455565           0
+13<-->14 : 9957.405271097701           0.17747803709290988           0
+13<-->12 : 9957.401490947817           0.17748591240516998           0
+12<-->13 : 9957.401490947817           0.17748591240516998           0
+12<-->11 : 9952.23880597015           0.18824150610864376           0
+5<-->11 : 9952.23880597015           0.18824150610864399           0
+5<-->6 : 9952.23880597015           0.1882493814209039           0
+5<-->4 : 9858.004969826055           0.4652060616000208           0
+11<-->5 : 9952.23880597015           0.18824150610864399           0
+11<-->10 : 9952.23880597015           0.18824150610864376           0
+11<-->12 : 9952.23880597015           0.18824150610864376           0
+6<-->5 : 9952.23880597015           0.1882493814209039           0
+6<-->7 : 9952.23880597015           0.19898517757412693           0
+4<-->5 : 9858.004969826055           0.4652060616000208           0
+4<-->3 : 9896.538002387584           0.39791096840545315           0
+10<-->11 : 9952.23880597015           0.18824150610864376           0
+10<-->9 : 9952.23880597015           0.18824150610864376           0
+9<-->10 : 9952.23880597015           0.18824150610864376           0
+9<-->8 : 9896.517412935324           0.3764830122172875           0
+18<-->17 : 9896.538002387584           0.3764434171167851           0
+18<-->19 : 9907.711420711687           0.2769805246550986           0
+17<-->18 : 9896.538002387584           0.3764434171167851           0
+17<-->16 : 9952.24830879427           0.19896538002387543           0
+19<-->18 : 9907.711420711687           0.2769805246550986           0
+19<-->15 : 9952.23880597015           0.18932553615645814           0
+19<-->1 : 9952.23880597015           0.19898517757412693           0
+15<-->19 : 9952.23880597015           0.18932553615645814           0
+15<-->14 : 9956.881063600431           0.1785701360455565           0
+15<-->16 : 9952.24830879427           0.18930573860620692           0
+8<-->9 : 9896.517412935324           0.3764830122172875           0
+8<-->7 : 10000.0           0.0           0
+1<-->2 : 0           164.64385196975738           0
+1<-->19 : 9952.23880597015           0.19898517757412693           0
+2<-->1 : 0           164.64385196975738           0
+2<-->3 : 0           164.33722995145212           0
+3<-->2 : 0           164.33722995145212           0
+3<-->7 : 10000.0           0.0           0
+3<-->4 : 9896.538002387584           0.39791096840545315           0
+16<-->15 : 9952.24830879427           0.18930573860620692           0
+16<-->17 : 9952.24830879427           0.19896538002387543           0
+7<-->8 : 10000.0           0.0           0
+7<-->6 : 9952.23880597015           0.19898517757412693           0
+7<-->3 : 10000.0           0.0           0
+
+src   dst      bandwidth                     packet_rate                  error
+---------------------------------------------------------------------------------
+14<-->13 : 10000.0           0.0           0
+14<-->15 : 9959.002391527161           0.08541168431841477           0
+13<-->14 : 10000.0           0.0           0
+13<-->12 : 10000.0           0.0           0
+12<-->13 : 10000.0           0.0           0
+12<-->11 : 10000.0           0.0           0
+5<-->11 : 10000.0           0.0           0
+5<-->6 : 10000.0           0.0           0
+5<-->4 : 10000.0           0.0           0
+11<-->5 : 10000.0           0.0           0
+11<-->10 : 10000.0           0.0           0
+11<-->12 : 10000.0           0.0           0
+6<-->5 : 10000.0           0.0           0
+6<-->7 : 10000.0           0.0           0
+4<-->5 : 10000.0           0.0           0
+4<-->3 : 9896.538002387584           0.39791096840545315           0
+10<-->11 : 10000.0           0.0           0
+10<-->9 : 10000.0           0.0           0
+9<-->10 : 10000.0           0.0           0
+9<-->8 : 9952.177625960718           0.1707941929974382           0
+18<-->17 : 10000.0           0.0           0
+18<-->19 : 10000.0           0.0           0
+17<-->18 : 10000.0           0.0           0
+17<-->16 : 10000.0           0.0           0
+19<-->18 : 10000.0           0.0           0
+19<-->15 : 10000.0           0.0           0
+19<-->1 : 10000.0           0.0           0
+15<-->19 : 10000.0           0.0           0
+15<-->14 : 9959.002391527161           0.08541168431841477           0
+15<-->16 : 10000.0           0.0           0
+8<-->9 : 9952.177625960718           0.1707941929974382           0
+8<-->7 : 9959.009393680615           0.17079419299743798           0
+1<-->2 : 0           164.64385196975738           0
+1<-->19 : 10000.0           0.0           0
+2<-->1 : 0           164.64385196975738           0
+2<-->3 : 0           164.33722995145212           0
+3<-->2 : 0           164.33722995145212           0
+3<-->7 : 10000.0           0.0           0
+3<-->4 : 9896.538002387584           0.39791096840545315           0
+16<-->15 : 10000.0           0.0           0
+16<-->17 : 10000.0           0.0           0
+7<-->8 : 9959.009393680615           0.17079419299743798           0
+7<-->6 : 10000.0           0.0           0
+7<-->3 : 10000.0           0.0           0

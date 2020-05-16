@@ -1,0 +1,152 @@
+import threading
+import networkx as nx
+import numpy as np
+import random
+import time
+
+class delay_RLModule():    
+
+    def __init__(self,network_data):                
+        self.goal = 8
+        self.awareness = network_data
+        
+        self.lock=threading.Lock()
+        self.episodes_completed = False
+        starttime = time.time()
+        self.host_map = [4, 5, 6, 7, 8]
+        self.switch_map = [0, 1, 2, 3]
+        self.goal=self.goal-1        
+        self.edges=[(4,0), (5,0), (6,1), (7,2), (8,2), (0,1), (1,2), (3,0), (3,2)]
+        self.G=nx.Graph()
+        self.G.add_edges_from(self.edges)
+        self.pos=nx.spring_layout(self.G)
+        self.initialize_reward_matrix()
+        self.initialize_Q_matrix()
+        endtime = time.time()
+        print("init: ", endtime - starttime)
+        
+    def initialize_reward_matrix(self):        
+        self.R=np.matrix(np.zeros(shape=(9,9)))
+        for x in self.G[self.goal]:
+            self.R[x,self.goal]=100
+
+    def initialize_Q_matrix(self):
+        self.Q=np.matrix(np.zeros(shape=(9,9)))
+        self.Q-=100
+        for node in self.G.nodes:
+            for x in self.G[node]:
+                self.Q[node,x]=0
+                self.Q[x,node]=0
+
+    def next_number(self,start,er):
+        self.random_value=random.uniform(0,1)    
+        if self.random_value<er:
+            sample=self.G[start]        
+        else:
+            sample=np.where(self.Q[start,]==np.max(self.Q[start,]))[1]            
+        next_node=int(np.random.choice(list(sample),1))    
+        return next_node
+
+    def updateQ(self,node1,node2,lr,discount):
+        max_index=np.where(self.Q[node2,]==np.max(self.Q[node2,]))[1]
+        if max_index.shape[0]>1:
+            max_index=int(np.random.choice(max_index,size=1))
+        else:
+            max_index=int(max_index)
+        max_value=self.Q[node2,max_index]
+        self.Q[node1,node2]=int((1-lr)*self.Q[node1,node2]+lr*(self.R[node1,node2]+discount*max_value))
+
+    #def receive_list_ryu(self,topologyinfo):
+        #self.learn(topologyinfo)
+
+    def learn(self):
+        while True:
+            topology_info = self.awareness.graph
+
+            print(threading.currentThread().getName(), 'Starting')
+            er=0.5
+            lr=0.8
+            discount=0.8
+            CB=10
+            gamma=0.7
+
+            starttime = time.time()
+            """
+            for edge in topology_info:
+                print("RL received edge:",edge)
+                start, next_node, delay = edge['delay']
+            """
+            for x in topology_info:
+                for y in topology_info[x]:
+                    start = x
+                    next_node = y
+                    pkt_rate = 0
+                    if 'packet_rate' in topology_info[x][y]: 
+                        pkt_rate = topology_info[x][y]['packet_rate']
+                        print("edge data: ",x,y,pkt_rate)
+
+                    start -= 1
+                    next_node -= 1
+                    #if (delay> 0.8 * CB):
+                    if(pkt_rate > CB):
+                        if next_node==self.goal:
+                            self.R[start,next_node]=50
+                        else:
+                            self.R[start,next_node]=-20
+
+            endtime = time.time()
+            print("reward: ", endtime - starttime)
+
+            starttime = time.time()
+            self.initialize_Q_matrix()
+            for i in range(650):
+                start=np.random.randint(0,8)                
+                next_node=self.next_number(start,er)    #calling the function                
+                self.lock.acquire()
+                #print("learn thread lock acquired")
+                self.updateQ(start,next_node,lr,discount)   #calling update@
+                self.lock.release()            
+                #print("learn thread lock released")
+            self.episodes_completed = True    
+            print("learn done")
+            endtime = time.time()
+            print("iterations: ", endtime - starttime)
+            print(threading.currentThread().getName(), 'Ending')
+            time.sleep(10)
+
+    def shortest_path(self,begin,end):
+        if self.episodes_completed == False:
+            return []
+        
+        starttime = time.time()
+        print(threading.currentThread().getName(), 'Starting')
+        begin = begin-1
+        end = end-1
+        print("begin and end", begin, end)
+        path=[begin]
+        self.lock.acquire()
+        #print("sp lock acquired")
+        local_Q = self.Q
+        self.lock.release()
+        #print("sp lock released")
+        next_node=np.argmax(local_Q[begin,])
+        path.append(next_node)
+        while next_node!=end:
+            next_node=np.argmax(local_Q[next_node,])
+            path.append(next_node)                
+        endtime = time.time()
+        print("path time: ", endtime - starttime)
+        print("shortest path done")
+        print("RL path:",path)
+        path = [x+1 for x in path]
+        print("RYU path:", path)
+        print(threading.currentThread().getName(), 'Ending')
+        return path
+    
+    def start_threads(self):
+        t1 = threading.Thread(name="learning", target=self.learn)
+        t1.start()
+        #t2 = threading.Thread(name="shortest-path", target=d.shortest_path, args=(5,8,))        
+        #t2.start()
+
+    
