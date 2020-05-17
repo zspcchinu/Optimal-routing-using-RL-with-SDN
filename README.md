@@ -40,9 +40,8 @@ h2 python3 gen_traffic.py
 To exit the  mininet console type "exit" in the console (without the quotes)
 To close the ryu controller use the close.sh script
 ```bash
-./close.sh ryu-manager
+./close.sh
 ```
-
 
 ## License
 [Apache 2.0](http://www.apache.org/licenses/)
