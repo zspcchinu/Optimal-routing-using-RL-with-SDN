@@ -7,7 +7,8 @@ This is a python project built using RYU SDN controller and Reinforcement Learni
 Optional: Create a virtual python environment:
 ```bash
 apt-get update
-apt-get install python3-venv
+apt-get install python3-venv mininet python3-pip
+pip3 install scapy
 python3 -m venv sdn_rl_venv
 source sdn_rl_venv/bin/activate
 ```
@@ -16,6 +17,7 @@ Install the python dependencies and build the ryu-project
 ```bash
 pip3 install -r requirments.txt
 python3 setup.py build
+python3 setup.py install
 ```
 
 ## Usage
