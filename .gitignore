@@ -37,6 +37,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!ryu/lib/
 lib64/
 parts/
 sdist/
