@@ -22,7 +22,7 @@ python3 setup.py build
 Open two terminals
 1. In one terminal start the ryu controller
 ```
-./start_ryu.sh run
+./start run
 ```
 2. In the second terminal start and connect the mininet to the ryu controller
 ```
