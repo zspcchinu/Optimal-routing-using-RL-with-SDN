@@ -1,3 +1,0 @@
-"""
-ovsdb interaction library.
-"""
